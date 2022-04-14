@@ -1,0 +1,43 @@
+/*General css settings*/
+body {
+  font-size: 100%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+main {
+  box-sizing: border-box;
+}
+
+main,
+footer,
+header,
+aside,
+span,
+nav {
+  display: block;
+}
+
+li,
+ul,
+dl {
+  list-style-type: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+nav ul li {
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
