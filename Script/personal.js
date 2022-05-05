@@ -26,3 +26,12 @@ document.getElementById("sk4").innerHTML = "80%";
 document.getElementById("sk5").innerHTML = "75%";
 document.getElementById("sk6").innerHTML = "80%";
 document.getElementById("welcome").innerHTML = Welcome();
+//footer  script to  give me detail on the page
+let pageDetail = '<p><b>Page title</b>: ' + document.title + " <br><b>Url</b>: " + document.URL;
+pageDetail += ' <br><b>Last Modified</b>: ' + document.lastModified;
+pageDetail += ' <br><b>Inner width</b>: ' + window.innerWidth + ' <br><b>Inner height</b>: ' + window.innerHeight;
+pageDetail += ' <br><b>Screen width</b>: ' + window.screen.width + ' <br><b>Screen height</b>: ' + window.screen.height;
+
+var theFooter = document.getElementById("copyright");
+theFooter.innerHTML = pageDetail;
+alert('the page location : ' + window.location);
